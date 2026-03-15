@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -29,14 +30,18 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
+          <ThemeToggle />
         </div>
-        <button
-          className="md:hidden text-foreground"
-          onClick={() => setOpen(!open)}
-          aria-label="Toggle menu"
-        >
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        <div className="flex items-center gap-3 md:hidden">
+          <ThemeToggle />
+          <button
+            className="text-foreground"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
       {open && (
         <div className="md:hidden bg-card border-b border-border pb-4">

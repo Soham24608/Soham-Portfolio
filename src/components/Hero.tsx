@@ -1,5 +1,4 @@
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/Soham24608", label: "GitHub" },
@@ -50,12 +49,8 @@ const Hero = () => (
         </div>
       </div>
       <div className="order-1 md:order-2 flex justify-center">
-        <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden profile-ring">
-          <img
-            src={profilePhoto}
-            alt="Soham Bhonge"
-            className="w-full h-full object-cover"
-          />
+        <div className="w-64 h-64 md:w-80 md:h-80 rounded-full profile-ring bg-primary/10 flex items-center justify-center">
+          <span className="text-6xl md:text-7xl font-heading font-bold text-primary">SB</span>
         </div>
       </div>
     </div>
