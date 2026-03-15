@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="text-foreground text-sm">+91 8767606907</p>
+                    <p className="text-foreground text-sm">+91 8421066807</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
