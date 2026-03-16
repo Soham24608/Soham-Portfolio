@@ -4,8 +4,8 @@ const certifications = [
   { title: "IBM SkillsBuild Completion Certificate", file: "https://drive.google.com/file/d/1DjJ7qOqcmWWLGTX1AoLJI139ijfn_GaH/view?usp=drivesdk" },
   { title: "Data Analytics Job Simulation", file: "https://drive.google.com/file/d/1XHd8D50Ou8aaDHN_EreI4YdrcLsJmVD7/view?usp=drivesdk" },
   { title: "Data Visualization Associate Internship", file: "https://drive.google.com/file/d/1-7Quy-QGIBY5aUpKZueglOYQTyLwBaKU/view?usp=drivesdk" },
-  { title: "Power BI Certificate", file: "https://drive.google.com/file/d/1d62Wg_7zrDX7LGUw3da3qlJ-tyWvnG0b/view?usp=drivesdk" },
-  { title: "Python Certificate", file: "/certificates/Python.pdf" },
+  { title: "Power BI Certificate", file: "https://drive.google.com/file/d/14kAL9ZwEVnFa-4aezvaX0f4nfum7oL7c/view?usp=drivesdk" },
+  { title: "Python Certificate", file: "https://drive.google.com/file/d/1d62Wg_7zrDX7LGUw3da3qlJ-tyWvnG0b/view?usp=drivesdk" },
   { title: "Project Exhibition Certificate", file: "/certificates/Soham_Bhonge_Certificate.pdf" },
 ];
 
