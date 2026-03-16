@@ -1,7 +1,7 @@
 import { Award } from "lucide-react";
 
 const certifications = [
-  { title: "IBM SkillsBuild Completion Certificate", file: "/certificates/Completion_Certificate_SkillsBuild.pdf" },
+  { title: "IBM SkillsBuild Completion Certificate", file: "https://drive.google.com/file/d/1DjJ7qOqcmWWLGTX1AoLJI139ijfn_GaH/view?usp=drivesdk" },
   { title: "Data Analytics Job Simulation", file: "/certificates/Data_Analytics_Job_Simulation.pdf" },
   { title: "Data Visualization Associate Internship", file: "/certificates/Data_Visualization_Associate_Internship.pdf" },
   { title: "Power BI Certificate", file: "/certificates/Power_BI.pdf" },
