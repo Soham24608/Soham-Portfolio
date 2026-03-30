@@ -1,4 +1,5 @@
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
+import profileImg from "@/assets/profile.jpg";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/Soham24608", label: "GitHub" },
