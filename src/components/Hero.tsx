@@ -51,7 +51,7 @@ const Hero = () => (
       </div>
       <div className="order-1 md:order-2 flex justify-center">
         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full profile-ring overflow-hidden">
-          <img src={profileImg} alt="Soham Bhonge" className="w-full h-full object-cover" />
+          <img src={profileImg} alt="Soham Bhonge" className="w-full h-full object-cover object-top" />
         </div>
       </div>
     </div>
